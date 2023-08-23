@@ -1,3 +1,28 @@
+
+Example
+-------
+
+Below is a code example that illustrates the differences between C0 (Line Coverage), C1 (Branch Coverage) and C2 (Condition Coverage).
+
+FYI, this is a python code to determine if a number is Positive and Even or Negative or Odd.
+
+```
+(1)  def check_number(number):
+(2)      if number > 0 and number % 2 == 0:
+(3)          return "Positive and Even"
+(4)      else:
+(5)          return "Negative or Odd"
+
+```
+
+We have below test cases:
+
+```
+TC1:   result = check_number(2)    # Positive and Even
+TC2:   result = check_number(3)    # Positive and Odd
+TC3:   result = check_number(-1)   # Negative
+```
+
 Test result
 ===========
 
