@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'simplecov'
+require 'spec_helper'
 require 'ruby_rspec'
 
 RSpec.describe RubyRspec do
